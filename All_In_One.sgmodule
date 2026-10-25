@@ -1,6 +1,6 @@
 #!url=https://raw.githubusercontent.com/DoNamHai07/LocketGold/main/All_In_One.sgmodule
 #!name=All In One
-#!desc=Được tổng hợp bởi Đinh Duy Vinh
+#!desc=Được tổng hợp bởi namhai07
 #!author=DoNamHai07
 #!homepage=https://imhai-locketgold.netlify.app
 #!tgchannel=https://t.me/tienich
@@ -103,7 +103,7 @@ BeautyPlus = type=http-response, pattern=https:\/\/(api\.mr\.pixocial\.com\/v1\/
 
 #LocketGold
 #hostname = api.revenuecat.com, firebaseremoteconfig.googleapis.com
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/DoNamHai07/LocketGold/main/js/Locket_DuyVinh09.js, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/DoNamHai07/LocketGold/main/js/Locket_namhai07.js, requires-body=true, max-size=-1, timeout=60
 deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/DoNamHai07/LocketGold/main/js/deleteHeader.js, timeout=60
 locket_rc = type=http-response, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://raw.githubusercontent.com/DoNamHai07/LocketGold/main/js/Locket_Unlocked.js, requires-body=true, max-size=-1, timeout=60
 #************************************#
